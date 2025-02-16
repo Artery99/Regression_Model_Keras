@@ -12,7 +12,7 @@ The dataset is split into training and testing sets.
 A Sequential Neural Network is built with Dense layers:
 a. Fully connected layers with ReLU activation.
 b. The output layer has a single neuron (for regression tasks).
-c. The model is compiled with mean_squared_error loss and an optimizer like Adam.
+c. The model is compiled with mean_squared_error loss and an Adam optimizer.
 d. The model is trained using the fit function.
 4. Model Evaluation:
 Predictions are generated on the test set.
